@@ -1,0 +1,240 @@
+html, body{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	/*font: 11px Tahoma, Helvetica, Arial, Sans-Serif;*/
+}
+.clear {
+	clear: both;
+}
+.hide {
+	display: none;
+}
+#content { 
+	width: 850px;
+	height:900px; 
+	top:20px; 
+	position:relative; 
+	bottom:0px;
+	float: left;
+}
+#content ul { 
+	margin:0px; 
+	padding:0px; 
+	text-align:center;
+}
+
+li.menu_item  {
+	list-style-type:none; 
+	float: left;
+	border: 1px solid #dddddd;
+	position: relative;
+	margin: 14px;
+	width: 465px;
+		margin: 10px;
+		width: 400px;
+}
+	.menu_item_image {
+		float: left;
+		width: 140px;
+		height: 140px;
+	}
+	.menu_item_title {
+		float: left;
+		padding: 10px 0px 0px 10px;
+		width: 160px;
+	}
+	.menu_item_title a {
+		color: #F2BC48;
+		font-size: 19px;
+		margin-bottom: 20px;
+		display: block;
+	}
+	.menu_item_price {
+		float: right;
+		padding: 10px 10px 0 0;
+		font-size: 18px;
+		width: 80px;
+		text-align: right;
+	}
+	.menu_item_price_text {
+		font-size: 18px;
+		text-align: right;
+	}
+	.menu_item_price_order a {
+		display: block;
+		background: url("../images/cart_slider_down3.png") no-repeat;
+		width: 40px;
+		height: 31px;
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+	}
+	
+.more_details {
+	padding-top: 10px;
+	text-align: left;
+}
+	.add_to_cart_row {
+		padding-left: 10px;
+	}
+	.add_to_cart_row select {
+		border: 1px solid #dddddd;
+		margin: 10px 0 10px 0px;
+		float: left;
+		height: 35px;
+	}
+	button.add_to_cart {
+		cursor: pointer;
+		width: 145px;
+		height: 35px;
+		float: left;
+		background: url("../images/cart_add_item.png") no-repeat;
+		background-size: auto 35px;
+		color: #fff;
+		border: none;
+		margin: 10px 0px 10px 10px;
+	}
+	.dodaci_wrap {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+	.dodaci_title {
+		clear: both;
+		margin: 10px 0 5px 10px;
+	}
+	input[type="checkbox"] {
+		width: 12px !important;
+		height: 12px !important;
+		margin-right: 5px;
+	}
+	.order_notice {
+		padding: 10px;
+		width: 85%;
+	}
+
+	.order_notice input {
+		width: 99%;
+		display: block;
+		border: 1px solid #dddddd;
+		margin: 10px 0;
+		height: 30px;
+	}
+
+#korpa {
+	top: 20px;
+	right: 0px;
+	width: 250px;
+	/*position: fixed;*/
+	position: absolute;
+	box-shadow: 0 0 20px #181818;
+}
+	.korpa_title {
+		background: #F2BC48;
+		background: #F2BC48 url("../images/korpa_bg1.png") no-repeat 0 0;
+		text-align: center;
+		height: 45px;
+		font-size: 26px;
+		line-height: 45px;
+		position: relative;
+	}
+	.korpa_title a {
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	form#cart_form {
+		background: #ffffff;
+	}
+	.shopp,.cart-total{ 
+		padding: 10px;
+		font-size: 13px;
+		font-family: "LubalGraphBdBTBold",Tahoma;
+		border-bottom: 1px solid #ccc;
+	}
+	div.remove {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		right: 10px;
+		cursor: pointer;
+		background: url("../images/remove_circle.jpg") no-repeat;
+	}
+	div.shopp div.label{ 
+		color: red;
+		font-size: 15px;
+		padding-bottom: 3px;
+		font-weight: bold;
+	}
+	div.label span {
+		color: #000;
+		font-size: 13px;
+		font-weight: normal;
+	}
+	div.shopp div.shopp-price-base { 
+		font-size: 13px;
+		margin-bottom: 3px;
+	}
+	em{ 
+		font-style:normal; 
+	}
+	div.shopp div.dodaciprikaz {
+		width: 100%;
+		display: inline-block;
+		font-size: 11px;
+		padding-bottom: 3px;
+	}
+	div.shopp div.shopp-price{ 
+		font-size: 13px;
+		margin-bottom: 3px;
+	}
+	.shopp-price em {
+		font-weight: bold;
+	}
+	.cart-total {
+		text-align: right;
+	}
+	
+button.order_cart {
+	height: 40px;
+	width: 81%;
+	background-color: #10b914;
+	color: #fff;
+	line-height: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0;
+	cursor: pointer;
+	border: 0;
+	margin: 10px 0;
+	margin-left: 10%;
+}
+/*END KORPA*/
+
+/*MAIN MENU*/
+ul#main_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	margin: 20px auto;
+}
+ul#main_menu li {
+    display: inline;
+}
+ul#main_menu li a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 22px;
+	background: #F2BC48;
+	font-weight: bold;
+}
+ul#main_menu li a:hover {
+	background: #F55B0B;
+}
+.active {
+	background: #F55B0B !important;
+}
+/*END MAIN MENU*/
