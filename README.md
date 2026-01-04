@@ -44,10 +44,10 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 - Today, a modern stack like Laravel/Vue would probably be used, but this is a legacy example from 2015.
 
 ### Project Images
-![screenshot1](assets/screenshot1.png)
-![screenshot2](assets/screenshot2.png)
-![screenshot3](assets/screenshot3.png)
-![screenshot4](assets/screenshot4.png)
+![screenshot1](./assets/screenshot1.png)
+![screenshot2](./assets/screenshot2.png)
+![screenshot3](./assets/screenshot3.png)
+![screenshot4](./assets/screenshot4.png)
 
 
 ## 🇷🇸 Srpski
@@ -94,7 +94,7 @@ Ovaj projekat je dostupan pod **MIT licencom**. To znači da ga možete slobodno
 - Danas bi se verovatno koristio Laravel/Vue ili drugi moderni stack, ali ovo je legacy primer iz 2015.
 
 ### Slike Projekta
-![screenshot1](assets/screenshot1.png)
-![screenshot2](assets/screenshot2.png)
-![screenshot3](assets/screenshot3.png)
-![screenshot4](assets/screenshot4.png)
+![screenshot1](./assets/screenshot1.png)
+![screenshot2](./assets/screenshot2.png)
+![screenshot3](./assets/screenshot3.png)
+![screenshot4](./assets/screenshot4.png)
