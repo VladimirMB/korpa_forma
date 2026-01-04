@@ -160,7 +160,7 @@ $products = array(
 			"product_name" => 'Palačinke Pršuta',
 			"product_price" => 250,
 			"product_desc" => 'Palačinke Pršuta opis',
-			"dodatak_type" => 4,
+			"dodatak_type" => 2,
 			//"product_image" => 'link'	    
 		),
 		"16" => array (
@@ -169,7 +169,7 @@ $products = array(
 			"product_name" => 'Palačinke Dimljena piletina',
 			"product_price" => 270,
 			"product_desc" => 'Palačinke Dimljena piletina opis',
-			"dodatak_type" => 4,
+			"dodatak_type" => 2,
 			//"product_image" => 'link'	    
 		),
 		"17" => array (

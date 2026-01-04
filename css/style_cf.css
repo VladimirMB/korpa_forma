@@ -2,54 +2,35 @@
 	display: none;
 	margin-bottom: 10px;
 	background: #e8e7de;
-	/*font-size: 14px;*/
 	line-height: 16px;
 	position: relative;
 	border: 1px solid #d1cfbd;
 	padding: 10px;
 	font-size: 13px;
 }
-/*
-#contact-user .error, #contact-user .empty {
-	color: #f00;
-	font-size: 13px;
-	line-height: 1.27em;
-	display: none;
-	overflow: hidden;
-	margin-bottom: 5px;
-	padding: 2px 4px 6px;
-	float: left;
-}
-*/
+
 .as1 {
 	display: none;
 }
 
 .kolona1 {
-border-bottom: 1px solid #eee;
-padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 10px;
 }
-/*
-.success {
-padding: 0px 0px 6px 0px;
-font-size: 13px;
-}
-*/
-
-
 
 div#contact-user {
-position: relative;
-padding: 0px 10px;
-}
-div#contact-user h2 {
-font-size: 20px;
-margin: 10px 0px;
-font-weight: normal;
-padding-bottom: 3px;
-border-bottom: 1px solid #eee;
-}
-div#korpadata {
-position: relative;
+	position: relative;
+	padding: 0px 10px;
 }
 
+div#contact-user h2 {
+	font-size: 20px;
+	margin: 10px 0px;
+	font-weight: normal;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #eee;
+}
+
+div#korpadata {
+	position: relative;
+}
