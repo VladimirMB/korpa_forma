@@ -45,12 +45,6 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 - This project was developed 10+ years ago as a personal demo without modern frameworks.  
 - Today, a modern stack like Laravel/Vue would probably be used, but this is a legacy example from 2015.
 
-### Project Images
-![screenshot1](./assets/screenshot1.PNG)
-![screenshot2](./assets/screenshot2.PNG)
-![screenshot3](./assets/screenshot3.PNG)
-![screenshot4](./assets/screenshot4.PNG)
-
 
 ## 🇷🇸 Srpski
 
